@@ -1,0 +1,6 @@
+1.The application should be run in linux.
+2.Please use g++ to build the application, such as you can input "g++ readFile.cpp -o readFile -lpthread" in linux terminal.
+2.The file's name, word which will be checked and processes number should be input by user.
+   For example: ./readFile Gone_with_the_wind.txt caught 4, application is readFile, file name is Gone with the wind.txt, caught is the word, processes number is 4, both of the default and maximum value is 8.
+3.The "mmapFile" and "shareMemory" will be automatically generated when the program runs, and they will be automatically deleted before the program exits, please don’t worry.
+4."Gone_with_the_wind.txt" is the test file which is used to debug the program, you can use your own file to test the program.
